@@ -17,7 +17,7 @@ export default defineConfig({
   reporter: [
     ['html', { open: 'on-failure' }],
     // ['list', { printSteps: true }],
-    ['allure-playwright', { outputFolder: 'my-allure-results' }],
+    // ['allure-playwright', { outputFolder: 'my-allure-results' }],
   ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */

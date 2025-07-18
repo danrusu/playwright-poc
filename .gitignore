@@ -8,3 +8,4 @@ node_modules
 
 # Test environments
 .env*
+!.env.test
