@@ -1,0 +1,10 @@
+node_modules
+
+# Playwright
+/playwright/.cache
+/playwright-report
+/test-results
+/blob-report
+
+# Test environments
+.env*
