@@ -20,7 +20,7 @@ test.describe('Demo test suite 1', () => {
 
   repeat(REPEAT_COUNT, index => {
     test(`demo test ${index}`, async ({ homePage }) => {
-      await test.step('demo', async () => {
+      await test.step('home page navigation', async () => {
         homePage.navigate();
         await homePage.waitForDomContentLoaded();
         homePage.page.waitForURL(homePage.URL);
