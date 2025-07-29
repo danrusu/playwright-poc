@@ -8,9 +8,9 @@ Plywright usage POC
 
 ```bash
 # check node and npm versions
-node --versionnode --v
-# v22.17.0
-npm --version
+node -v
+# v22.17.1
+npm -v
 # 10.8.2
 ```
 
