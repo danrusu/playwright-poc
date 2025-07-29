@@ -54,5 +54,6 @@ npm run report
 ```bash
 npm install -g @sonar/scan
 
-sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=SONAR_PLAYWRIGH_POC_TOKEN -Dsonar.projectKey=playwright-poc
+# run as admin
+sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=$SONAR_PLAYWRIGH_POC_TOKEN -Dsonar.projectKey=playwright-poc
 ```
