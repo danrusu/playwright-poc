@@ -47,7 +47,7 @@ npm run report
 
 ## 6. SonarQube
 
-### 6.1 Install and start [SonarQube Community Build](https://docs.sonarsource.com/sonarqube-community-build/try-out-sonarqube/?_gl=1*1uenjxh*_gcl_au*NzU3NjQwMTA2LjE3NTM3ODEzNDcuNjg4OTg3MjI2LjE3NTM3ODcyODMuMTc1Mzc4NzI5NQ..*_ga*ODU1NjkzNTcxLjE3NTM3ODEzMDM.*_ga_9JZ0GZ5TC6*czE3NTM3ODEzMDMkbzEkZzEkdDE3NTM3ODc0MDYkajUyJGwwJGgw)
+### 6.1 Install and start [SonarQube Community Build](https://docs.sonarsource.com/sonarqube-community-build/try-out-sonarqube)
 
 ### 6.2 Scan the code
 
