@@ -14,6 +14,7 @@ export type env = {
 const env: env = {} as env;
 
 envVars.forEach((envVarName: string) => {
+  //@ts-ignore
   env[envVarName] = getenvVarOrDefault(envVarName);
 });
 
