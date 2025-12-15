@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import test from 'src/fixtures/testutils-test.js';
+import test from 'src/fixtures/testutils/testutils-test.js';
 
 import { repeat } from 'src/utils/arrayUtil.js';
 import env, { ENV_VAR_NOT_SET } from '../base/env.js';

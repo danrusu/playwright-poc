@@ -11,21 +11,25 @@
     "format": "prettier . --write",
     "build": "tsc -p tsconfig.json --noEmit",
     "report": "playwright show-report",
-    "test:demo": "playwright test tests/demo.spec.ts",
+    "test:demo": "playwright test tests/testutils/demo.spec.ts",
     "test:testutils": "playwright test tests/testutils"
   },
-  "keywords": [],
-  "author": "Dan rusu <danginkgo.@yahoo.com>",
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e"
+  ],
+  "author": "Dan Rusu <danginkgo.@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.54.1",
-    "cross-env": "^7.0.3",
-    "dotenv": "^17.2.0",
-    "husky": "^9.1.7"
+    "@playwright/test": "1.57.0",
+    "cross-env": "10.1.0",
+    "dotenv": "17.2.3",
+    "husky": "9.1.7"
   },
   "devDependencies": {
-    "@types/node": "^24.0.14",
-    "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "@types/node": "25.0.2",
+    "prettier": "3.7.4",
+    "typescript": "5.9.3"
   }
 }
