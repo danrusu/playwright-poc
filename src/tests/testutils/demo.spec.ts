@@ -2,10 +2,10 @@ import { expect } from '@playwright/test';
 import test from 'src/fixtures/testutils/testutils-test.js';
 
 import { repeat } from 'src/utils/arrayUtil.js';
-import env, { ENV_VAR_NOT_SET } from '../base/env.js';
+import env, { ENV_VAR_NOT_SET } from '../../base/env.js';
 
 // correct JSON import
-import packageJson from '../../package.json' with { type: 'json' };
+import packageJson from '../../../package.json' with { type: 'json' };
 
 const REPEAT_COUNT = 1;
 
