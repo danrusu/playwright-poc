@@ -1,6 +1,6 @@
-import BaseWebPage from 'src/base/BaseWebPage.js';
+import WebPage from 'src/base/BaseWebPage.js';
 
-export default class HomePage extends BaseWebPage {
+export default class HomePage extends WebPage {
   public readonly URL = 'https://testutils.com';
 
   public navigate() {

@@ -1,7 +1,7 @@
 import { Locator, Page } from '@playwright/test';
 import type { HttpMethod } from './httpMethod.js';
 
-export default class BaseWebPage {
+export default class WebPage {
   public readonly page: Page;
 
   constructor(page: Page) {
