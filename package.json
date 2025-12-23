@@ -11,6 +11,8 @@
     "format": "prettier . --write",
     "build": "tsc -p tsconfig.json --noEmit",
     "report": "playwright show-report",
+    "test": "playwright test --trace on",
+    "test:ui": "playwright test --ui",
     "test:demo": "playwright test tests/testutils/demo.spec.ts",
     "test:testutils": "playwright test tests/testutils"
   },

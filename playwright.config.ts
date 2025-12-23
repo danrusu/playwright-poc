@@ -4,7 +4,8 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './src/tests',
+  testDir: './src/test',
+  testMatch: '*.test.ts',
 
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -16,7 +17,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : 2, //undefined,
+  workers: process.env.CI ? 1 : '50%',
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
@@ -45,7 +46,7 @@ export default defineConfig({
   projects: [
     /* Test against branded browsers. */
     {
-      name: 'poc-chrome',
+      name: 'chrome',
       use: {
         ...devices['Desktop Chrome'],
         deviceScaleFactor: undefined,
